@@ -67,15 +67,24 @@ header {
 
         .top-menu {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex end;
             align-items: center;
             border-bottom: 1px solid #DAD9D3;
             padding-bottom: 10px;
             
+            @media (min-width: 1200px) {
+                justify-content: space-between;
+            }
+    
 
             .contact-information {
-                display:flex;
+                display: none;
                 align-items: center;
+
+                @media (min-width: 1200px) {
+                    display: flex;
+                    
+                }
         
 
                 .content-box {
