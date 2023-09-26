@@ -50,6 +50,24 @@ html, body {
     }
 }
 
+.section-title {
+    padding-top: 120px;
+    padding-bottom: 90px;
+    p {
+        color: #f94d1c;
+        margin-bottom: 10px;
+
+    }
+
+    h2 {
+        color:#191919;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700px;
+        font-size: 40px;
+    
+    }
+}
+
 header {
     background-color: #F0EFE9;
     padding: 16px;
@@ -283,4 +301,15 @@ header {
         }
    
     }
+}
+
+.project-and-case {
+    .container {
+
+        .section-title {
+            text-align: center;
+
+        }
+    }
+
 }
