@@ -265,6 +265,22 @@ header .container .menu .main-menu .btn-login {
   }
 }
 
+.accounting-and-advice .container .logotypes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+.accounting-and-advice .container .features-title p {
+  color: #f94d1c;
+}
+.accounting-and-advice .container .features-title h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+}
+
 .project-and-case .container .section-title {
   text-align: center;
 }
