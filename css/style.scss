@@ -339,7 +339,8 @@ header {
 
 .accounting-and-advice {
 
-    .container {
+    .container { 
+
 
         .logotypes {
             display: flex;
@@ -351,23 +352,67 @@ header {
             
         }
 
-        .features-title {
+        
+        
+    
+        
 
+    }
+
+    
+}
+
+.advice {
+
+    .container {
+        display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        
+        
+
+        .advice-management {
+            
+            
+            h3 {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700px;
+                font-size: 20px;
+            }
+            
+            p {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700px;
+                font-size: 15px;
+                
+            }
+
+
+        }
+    
+        
+
+        .features-title {
+            
+            
+
+            
             p {
                 color:#f94d1c
+
             }
 
             h2 {
                 font-family: 'DM Sans', sans-serif;
                 font-weight: 700px;
-                font-size: 40px;
+                font-size: 35px;
+            
 
             }
+
+
         }
-
     }
-
-    
 }
 
 .project-and-case {
