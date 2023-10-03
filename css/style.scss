@@ -50,6 +50,66 @@ html, body {
     }
 }
 
+.btn-black-learnmore {
+
+    background-color: #191919;
+    border: 1px solid #191919;
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: 70px;
+    border-radius: 35px;
+    margin-right: 40px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    
+
+    i {
+        margin-left: 8px;
+        font-size:0.9rem;
+    }
+
+    
+    
+    
+        
+    &:hover {
+        background-color: #FFFFFF;
+        border: 1px solid #191919;
+        color:#191919;
+    }
+}   
+
+.btn-play {
+    
+    border: 1px solid;
+    color: #191919;
+    text-decoration: none;
+    padding: 10px 17px;
+    font-weight: 70px;
+    border-radius: 35px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    
+
+    i {
+        align-items: center;
+    }
+
+}
+
+.btn-intro-video {
+    color: #191919;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 70px;
+    border-radius: 35px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    
+}
+
 .btn-transparent {
     background-color: transparent;
     border: 1px solid #191919;
@@ -466,14 +526,66 @@ header {
    
 }
 
-.consulting.repair {
+.consulting-repair {
 
     .container {
+        display: flex;
+        align-items: space-between;
+        text-align: left;
+        
+
 
         .founder {
-            
+            position: relative;
+            padding-top: 150px;
+            margin-right: 200px;
+
+        }
+
+        .experts {
+            padding-top: 150px;
+            p {
+                text-align: left;
+                color: #f94d1c;
+            }
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700px;
+                font-size: 45px;
+
+            }
+
+            h3 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 15px;
+                padding-top: 30px;
+                font-weight: 50;
+                padding-bottom: 35px;
+                color:#5a5a5a; 
+                
+                
+            }
+
+            h4 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 15px;
+                padding-top: 30px;
+                padding-bottom: 110px;
+                font-weight: 50;
+                color:#5a5a5a;
+                
+            }
+
+            a {
+                display: inline-block;
+            }
+
+
         }
     }
+
+    
 }
 
 .project-and-case {
