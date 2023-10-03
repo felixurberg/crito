@@ -64,6 +64,17 @@ html, body {
   color: #F0EFE9;
 }
 
+.btn-yellower {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 400;
+  border-radius: 25px;
+  text-align: center;
+}
+
 .section-title {
   padding-top: 70px;
   padding-bottom: 30px;
@@ -274,9 +285,16 @@ header .container .menu .main-menu .btn-login {
 }
 
 .advice .container {
+  display: flex;
+}
+.advice .container .advice-management {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 70px;
+  padding-top: 90px;
+  margin-right: 100px;
+  margin-left: 90px;
 }
 .advice .container .advice-management h3 {
   font-family: "DM Sans", sans-serif;
@@ -288,13 +306,30 @@ header .container .menu .main-menu .btn-login {
   font-weight: 700px;
   font-size: 15px;
 }
+.advice .container .advice-management img {
+  padding-bottom: 35px;
+}
+.advice .container .features-title {
+  text-align: left;
+  justify-content: right;
+  padding-top: 70px;
+  padding-bottom: 200px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700px;
+  font-size: 15px;
+  margin-right: 170px;
+}
 .advice .container .features-title p {
   color: #f94d1c;
 }
 .advice .container .features-title h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700px;
-  font-size: 35px;
+  font-size: 45px;
+  padding-bottom: 45px;
+}
+.advice .container .features-title a {
+  display: block;
 }
 
 .project-and-case .container .section-title {
