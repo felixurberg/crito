@@ -74,7 +74,7 @@ html, body {
   text-decoration: none;
   padding: 10px 17px;
   font-weight: 70px;
-  border-radius: 35px;
+  border-radius: 50%;
   font-family: "DM Sans", sans-serif;
   font-size: 0.9rem;
 }
@@ -450,11 +450,9 @@ header .container .menu .main-menu .btn-login {
 .service-and-consulting {
   background-color: #F0EFE9;
 }
-.service-and-consulting .container {
-  margin-bottom: 100px;
-}
 .service-and-consulting .container .titles {
   padding-top: 120px;
+  text-align: left;
 }
 .service-and-consulting .container .titles p {
   color: #f94d1c;
@@ -465,8 +463,10 @@ header .container .menu .main-menu .btn-login {
   padding-bottom: 40px;
 }
 .service-and-consulting .container .box-parent {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
 }
 .service-and-consulting .container .box-parent .childbox-1 {
   margin: 30px;
@@ -474,11 +474,43 @@ header .container .menu .main-menu .btn-login {
   width: 250px;
   background-color: white;
 }
+.service-and-consulting .container .box-parent .childbox-1 .roundbutton {
+  display: inline-block;
+  padding: 15px 20px;
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  margin-left: 170px;
+}
+.service-and-consulting .container .box-parent .childbox-1 .roundbutton:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #191919;
+  color: #191919;
+}
 .service-and-consulting .container .box-parent .childbox-2 {
   margin: 30px;
   height: 270px;
   width: 250px;
   background-color: #F9D783;
+}
+.service-and-consulting .container .box-parent .childbox-2 .roundbutton {
+  display: inline-block;
+  padding: 15px 20px;
+  border: solid 1px white;
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: #fffefe;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin-left: 170px;
+}
+.service-and-consulting .container .box-parent .childbox-2 .roundbutton:hover {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 .service-and-consulting .container .box-parent .childbox-3 {
   margin: 30px;
@@ -486,11 +518,62 @@ header .container .menu .main-menu .btn-login {
   width: 250px;
   background-color: white;
 }
+.service-and-consulting .container .box-parent .childbox-3 .roundbutton {
+  display: inline-block;
+  padding: 15px 20px;
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  margin-left: 170px;
+}
+.service-and-consulting .container .box-parent .childbox-3 .roundbutton:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #191919;
+  color: #191919;
+}
 .service-and-consulting .container .box-parent .childbox-4 {
   margin: 30px;
   height: 270px;
   width: 250px;
   background-color: white;
+}
+.service-and-consulting .container .box-parent .childbox-4 .roundbutton {
+  display: inline-block;
+  padding: 15px 20px;
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  margin-left: 170px;
+}
+.service-and-consulting .container .box-parent .childbox-4 .roundbutton:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #191919;
+  color: #191919;
+}
+.service-and-consulting .container .box-parent h2 {
+  font-family: "DM Sans", sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  padding-top: 60px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.service-and-consulting .container .box-parent p {
+  font-family: "DM Sans", sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  padding-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.service-and-consulting .container .browserservices {
+  display: block;
 }
 
 .project-and-case .container .section-title {
