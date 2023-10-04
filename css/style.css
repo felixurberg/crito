@@ -384,12 +384,35 @@ header .container .menu .main-menu .btn-login {
   align-items: space-between;
   text-align: left;
 }
-.consulting-repair .container .founder {
+.consulting-repair .container .parent {
   position: relative;
   padding-top: 150px;
-  margin-right: 200px;
+  padding-left: 45px;
+}
+.consulting-repair .container .parent .child {
+  position: absolute;
+  height: 150px;
+  width: 345px;
+  background-color: #BEEBFF;
+  bottom: 40px;
+  left: 10px;
+}
+.consulting-repair .container .parent .child h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+.consulting-repair .container .parent .child h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 50;
+  color: #000000;
+  margin-left: 5px;
 }
 .consulting-repair .container .experts {
+  margin-left: 150px;
   padding-top: 150px;
 }
 .consulting-repair .container .experts p {

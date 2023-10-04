@@ -528,6 +528,8 @@ header {
 
 .consulting-repair {
 
+    
+
     .container {
         display: flex;
         align-items: space-between;
@@ -535,14 +537,52 @@ header {
         
 
 
-        .founder {
+        .parent {
             position: relative;
             padding-top: 150px;
-            margin-right: 200px;
+            padding-left: 45px;
+            
+            
+
+            .child {
+                position: absolute;
+                height: 150px;
+                width: 345px;
+                background-color: #BEEBFF;
+                bottom: 40px;
+                left: 10px;
+
+                h2 {
+
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700px;
+                    font-size: 20px;
+                    margin-top: 40px;
+                    margin-left: 5px;
+                
+                    
+
+                }
+
+                
+                h4 {
+                 font-family: 'DM Sans', sans-serif;
+                 font-size: 13px;
+                 font-weight: 50;
+                 color:#000000;
+                 margin-left: 5px;
+                 
+
+                }
+
+
+            }
+ 
 
         }
 
         .experts {
+            margin-left: 150px;
             padding-top: 150px;
             p {
                 text-align: left;
