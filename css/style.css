@@ -379,6 +379,9 @@ header .container .menu .main-menu .btn-login {
   display: block;
 }
 
+.consulting-repair {
+  margin-bottom: 120px;
+}
 .consulting-repair .container {
   display: flex;
   align-items: space-between;
@@ -402,14 +405,14 @@ header .container .menu .main-menu .btn-login {
   font-weight: 700px;
   font-size: 20px;
   margin-top: 40px;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 .consulting-repair .container .parent .child h4 {
   font-family: "DM Sans", sans-serif;
   font-size: 13px;
   font-weight: 50;
   color: #000000;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 .consulting-repair .container .experts {
   margin-left: 150px;
@@ -442,6 +445,52 @@ header .container .menu .main-menu .btn-login {
 }
 .consulting-repair .container .experts a {
   display: inline-block;
+}
+
+.service-and-consulting {
+  background-color: #F0EFE9;
+}
+.service-and-consulting .container {
+  margin-bottom: 100px;
+}
+.service-and-consulting .container .titles {
+  padding-top: 120px;
+}
+.service-and-consulting .container .titles p {
+  color: #f94d1c;
+}
+.service-and-consulting .container .titles h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.service-and-consulting .container .box-parent {
+  display: flex;
+  justify-content: center;
+}
+.service-and-consulting .container .box-parent .childbox-1 {
+  margin: 30px;
+  height: 270px;
+  width: 250px;
+  background-color: white;
+}
+.service-and-consulting .container .box-parent .childbox-2 {
+  margin: 30px;
+  height: 270px;
+  width: 250px;
+  background-color: #F9D783;
+}
+.service-and-consulting .container .box-parent .childbox-3 {
+  margin: 30px;
+  height: 270px;
+  width: 250px;
+  background-color: white;
+}
+.service-and-consulting .container .box-parent .childbox-4 {
+  margin: 30px;
+  height: 270px;
+  width: 250px;
+  background-color: white;
 }
 
 .project-and-case .container .section-title {

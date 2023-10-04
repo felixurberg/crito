@@ -527,13 +527,15 @@ header {
 }
 
 .consulting-repair {
-
+    margin-bottom: 120px;
+ 
     
 
     .container {
         display: flex;
         align-items: space-between;
         text-align: left;
+        
         
 
 
@@ -558,7 +560,7 @@ header {
                     font-weight: 700px;
                     font-size: 20px;
                     margin-top: 40px;
-                    margin-left: 5px;
+                    margin-left: 20px;
                 
                     
 
@@ -570,7 +572,7 @@ header {
                  font-size: 13px;
                  font-weight: 50;
                  color:#000000;
-                 margin-left: 5px;
+                 margin-left: 20px;
                  
 
                 }
@@ -593,6 +595,7 @@ header {
                 font-family: 'DM Sans', sans-serif;
                 font-weight: 700px;
                 font-size: 45px;
+                
 
             }
 
@@ -603,6 +606,7 @@ header {
                 font-weight: 50;
                 padding-bottom: 35px;
                 color:#5a5a5a; 
+                
                 
                 
             }
@@ -626,6 +630,80 @@ header {
     }
 
     
+}
+
+.service-and-consulting {
+    background-color: #F0EFE9;
+    
+
+    .container {
+        margin-bottom: 100px;
+
+
+        .titles {
+            padding-top: 120px;
+
+            p {
+                color:#f94d1c
+            }
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                padding-bottom: 40px;
+            }
+        }
+
+        .box-parent {
+           display: flex;
+           justify-content: center;
+
+          
+            
+            
+            
+            
+
+
+
+            .childbox-1 {
+                margin: 30px;
+                height: 270px;
+                width: 250px;
+                background-color: white;
+                
+                
+            }
+
+            .childbox-2 {
+                margin: 30px;
+                height:270px;
+                width:250px;
+                background-color: #F9D783;
+                
+
+
+            }
+
+            .childbox-3 {
+                margin: 30px;
+                height:270px;
+                width:250px;
+                background-color: white;
+                
+
+            }
+
+            .childbox-4 {
+                margin: 30px;
+                height:270px;
+                width:250px;
+                background-color: white;
+                
+
+            }
+        }
+    }
 }
 
 .project-and-case {
