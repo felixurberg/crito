@@ -662,6 +662,22 @@ header .container .menu .main-menu .btn-login {
   align-items: center;
 }
 
+.business-agency .container .titles p {
+  color: #f94d1c;
+  padding-top: 60px;
+}
+.business-agency .container .titles h2 {
+  font-family: "DM Sans", sans-serif;
+  text-align: left;
+  font-weight: 800;
+  padding-bottom: 60px;
+}
+.business-agency .container .parent-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+}
 .project-and-case .container {
   padding-top: 120px;
 }

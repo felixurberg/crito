@@ -928,6 +928,89 @@ header {
     
 }
 
+.business-agency {
+
+    .container {
+
+        .titles {
+
+            p {
+                color:#f94d1c;
+                padding-top: 60px;
+                
+            }
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                text-align: left;
+                font-weight: 800;
+                padding-bottom: 60px; 
+            }
+        }
+
+        .parent-text {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr;
+            gap: 20px;
+
+           .text-1 {
+
+            h3 {
+                
+
+
+
+            }
+
+            p {
+
+            }
+
+
+           .text-2 {
+
+            h3 {
+
+            }
+
+            p {
+
+            }
+
+
+           }
+
+           .text-3 {
+
+            h3 {
+                
+
+            }
+
+            p {
+
+            }
+           }
+
+           .text-4 {
+
+            h3 {
+
+            }
+
+            p {
+
+            
+            }
+           }
+
+           
+
+
+        }
+}   }
+
 .project-and-case {
 
     .container {
