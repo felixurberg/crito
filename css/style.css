@@ -662,22 +662,60 @@ header .container .menu .main-menu .btn-login {
   align-items: center;
 }
 
+.business-agency .container {
+  display: flex;
+  justify-content: space-between;
+}
 .business-agency .container .titles p {
   color: #f94d1c;
   padding-top: 60px;
+  margin-bottom: 20px;
 }
 .business-agency .container .titles h2 {
   font-family: "DM Sans", sans-serif;
-  text-align: left;
   font-weight: 800;
   padding-bottom: 60px;
+  position: absolute;
 }
-.business-agency .container .parent-text {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
-  gap: 20px;
+.business-agency .container .titles .texts-1 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-left: 80px;
+  padding-top: 150px;
+  position: absolute;
 }
+.business-agency .container .titles .texts-1 h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-size: 0.9rem;
+  padding-left: 80px;
+  padding-top: 180px;
+  position: absolute;
+}
+.business-agency .container .titles .texts-1 .thumbsup {
+  position: absolute;
+  text-align: left;
+  padding-top: 145px;
+}
+.business-agency .container .titles .texts-1 .thumbsup2 {
+  margin: 15px;
+  padding-top: 160px;
+  position: relative;
+}
+.business-agency .container .titles .texts-2 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-left: 80px;
+}
+.business-agency .container .titles .texts-2 h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-left: 80px;
+}
+
 .project-and-case .container {
   padding-top: 120px;
 }

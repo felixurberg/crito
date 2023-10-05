@@ -929,88 +929,129 @@ header {
 }
 
 .business-agency {
+    
 
     .container {
+        display: flex;
+        justify-content: space-between;
+        
+        
+        
 
         .titles {
+            
+
 
             p {
                 color:#f94d1c;
                 padding-top: 60px;
+                margin-bottom: 20px;
                 
             }
 
             h2 {
                 font-family: 'DM Sans', sans-serif;
-                text-align: left;
                 font-weight: 800;
                 padding-bottom: 60px; 
+                position: absolute;
             }
-        }
 
-        .parent-text {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: auto 1fr;
-            gap: 20px;
-
-           .text-1 {
-
-            h3 {
+            .texts-1 {
                 
 
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    padding-left: 80px;
+                    padding-top: 150px;
+                    position: absolute;
+                    
+                }
 
+                h4 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 200;
+                    font-size: 0.9rem;
+                    padding-left: 80px;
+                    padding-top: 180px;
+                    position: absolute;
+                    
+                    
+                    
+                }
 
-            }
+                .thumbsup {
+                    position: absolute;
+                    text-align: left;
+                    padding-top: 145px;
+                    
 
-            p {
+                    
+                    
+                }
 
-            }
+                .thumbsup2 {
+                    margin: 15px;
+                    padding-top: 160px;
+                    position: relative;
+                }
 
-
-           .text-2 {
-
-            h3 {
-
-            }
-
-            p {
-
-            }
-
-
-           }
-
-           .text-3 {
-
-            h3 {
                 
 
             }
 
-            p {
+            .texts-2 {
 
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    padding-left: 80px;
+
+                }
+
+                h4 {
+
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    padding-left: 80px;
+
+                }
             }
-           }
 
-           .text-4 {
-
-            h3 {
-
-            }
-
-            p {
+                
 
             
-            }
-           }
+
+          
+        
+
+        
+            
+            
 
            
+        
 
 
-        }
-}   }
 
+         
+            
+            
+        }  
+
+    
+        
+
+          
+        
+    }     
+    
+    
+    
+}
 .project-and-case {
 
     .container {
