@@ -14,7 +14,7 @@ html, body {
     color:#191919;
     text-decoration: none;
     padding: 12px 30px;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 25px;
 
     i {
@@ -49,6 +49,8 @@ html, body {
         color:#191919;
     }
 }
+
+
 
 .btn-black-learnmore {
 
@@ -116,13 +118,15 @@ html, body {
     border: 1px solid #191919;
     color:#191919;
     text-decoration: none;
-    padding: 15px 30px;
-    font-weight: 600;
+    padding: 12px 25px;
+    font-weight: 400;
     border-radius: 25px;
+    font-size: 0.9rem;
 
     i {
         margin-left: 8px;
         font-size:0.9rem;
+        margin-bottom: 3px;
     }
     
     &:hover {
@@ -144,6 +148,8 @@ html, body {
 
     
 }
+
+
 
 .section-title {
     padding-top: 70px;
@@ -173,6 +179,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -635,10 +642,13 @@ header {
 
 .service-and-consulting {
     background-color: #F0EFE9;
+
     
 
     .container {
         
+        
+       
         
         .titles {
             padding-top: 120px;
@@ -653,36 +663,38 @@ header {
                 font-weight: 700;
                 padding-bottom: 40px;
             }
+
+            
         }
 
         .box-parent {
-           display: grid;
-           grid-template-columns: 1fr 1fr 1fr 1fr; 
-           grid-template-rows: auto;
-           gap: 10px;
+           display: inline-flex;
+           gap: 30px;
+           text-align: center;
            
            
-
-          
             
 
             .childbox-1 {
-                margin: 30px;
-                height: 270px;
-                width: 250px;
+                padding: 20px;
+                height: 300px;
+                width: 280px;
                 background-color: white;
+                display: flex;
+                flex-direction: column;
                 
                 
                 .roundbutton {
                     display: inline-block;
                     padding: 15px 20px;
+                    margin-top: 20px;
                     border: solid 1px black;
                     border-radius: 50%;
                     padding: 10px 15px;
                     background-color: #000000;
                     color: white;
                     font-size: 16px;
-                    margin-left: 170px;
+                    align-self: flex-start;
                     
                     &:hover {
                         background-color: #FFFFFF;
@@ -691,26 +703,51 @@ header {
                     }
                     
                 }
+
+                .content {
+                    display: inline-block;
+                    flex-grow: 1;
+                    text-align: right;
+                    padding-left: 20px;
+
+                    &.content::before {
+                        content: "";
+                        position: absolute;
+                        display: block;
+                        border-top: 1px solid black;
+                        font-weight: 700;
+                        height: 5px;
+                        width: 30px;
+                        margin-top: 20px;
+
+                    }
+                }
                 
+               
             }
 
             .childbox-2 {
-                margin: 30px;
-                height:270px;
-                width:250px;
+                padding: 20px;
+                height: 300px;
+                width: 280px;
                 background-color: #F9D783;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                display: inline-block;
                 
 
                 .roundbutton {
                     display: inline-block;
                     padding: 15px 20px;
+                    margin-top: 20px;
                     border: solid 1px white;
                     border-radius: 50%;
                     padding: 10px 15px;
                     background-color: #fffefe;
                     color: rgb(0, 0, 0);
                     font-size: 16px;
-                    margin-left: 170px;
+                    align-self: flex-start;
                     
                     
                     &:hover {
@@ -719,6 +756,27 @@ header {
                         color:#ffffff;
                     }
                     
+                    
+                }
+
+                .content {
+                    display: inline-block;
+                    flex-grow: 1;
+                    text-align: right;
+                    padding-left: 20px;
+                    position: relative;
+
+                    &.content::before {
+                        content: "";
+                        position: absolute;
+                        display: block;
+                        border-top: 1px solid black;
+                        font-weight: 700;
+                        height: 5px;
+                        width: 30px;
+                        margin-top: 20px;
+
+                    }
                 }
                 
 
@@ -726,21 +784,24 @@ header {
             }
 
             .childbox-3 {
-                margin: 30px;
-                height:270px;
-                width:250px;
+                padding: 20px;
+                height: 300px;
+                width: 280px;
                 background-color: white;
+                display: flex;
+                flex-direction: column;
 
                 .roundbutton {
                     display: inline-block;
                     padding: 15px 20px;
+                    margin-top: 20px;
                     border: solid 1px black;
                     border-radius: 50%;
                     padding: 10px 15px;
                     background-color: #000000;
                     color: white;
                     font-size: 16px;
-                    margin-left: 170px;
+                    align-self: flex-start;
                     
                     
                     &:hover {
@@ -751,18 +812,39 @@ header {
                     
                 }
                 
+                .content {
+                    display: inline-block;
+                    flex-grow: 1;
+                    text-align: right;
+                    padding-left: 20px;
+
+                    &.content::before {
+                        content: "";
+                        position: absolute;
+                        display: block;
+                        border-top: 1px solid black;
+                        font-weight: 700;
+                        height: 5px;
+                        width: 30px;
+                        margin-top: 20px;
+
+                    }
+                }
                 
 
             }
 
             .childbox-4 {
-                margin: 30px;
-                height:270px;
-                width:250px;
+                padding: 20px;
+                height: 300px;
+                width: 280px;
                 background-color: white;
+                display: flex;
+                flex-direction: column;
 
                 .roundbutton {
                     display: inline-block;
+                    margin-top: 20px;
                     padding: 15px 20px;
                     border: solid 1px black;
                     border-radius: 50%;
@@ -770,7 +852,8 @@ header {
                     background-color: #000000;
                     color: white;
                     font-size: 16px;
-                    margin-left: 170px;
+                    align-self: flex-start;
+                    
                     
                     
                     &:hover {
@@ -780,6 +863,27 @@ header {
                     }
                     
                 }
+                
+                .content {
+                    display: inline-block;
+                    flex-grow: 1;
+                    text-align: right;
+                    padding-left: 20px;
+                    
+
+                    &.content::before {
+                        content: "";
+                        position: absolute;
+                        display: block;
+                        border-top: 1px solid black;
+                        font-weight: 700;
+                        height: 5px;
+                        width: 30px;
+                        margin-top: 20px;
+
+                    }
+                }
+                
                 
 
             }
@@ -787,7 +891,7 @@ header {
             h2 {
                 font-family: 'DM Sans', sans-serif;
                 text-align: left;
-                margin-left: 25px;
+                margin-right: 20px;
                 padding-top: 60px;
                 font-size: 1.2rem;
                 font-weight: 700;
@@ -797,28 +901,37 @@ header {
             p {
                 font-family: 'DM Sans', sans-serif;
                 text-align: left;
-                margin-left: 25px;
+                padding-right: 30px;
                 padding-top: 10px;
-                font-size: 0.8rem;
-                font-weight: 100;
+                font-size: 0.7em;
+                font-weight: 400;
+         
             }
         }
 
-        .browserservices {
-            display: block;
+        .button-center {
+            text-align: center;
+            margin-right: 70px;
+            margin-top: 40px;
+            padding-bottom: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             
         }
-    
 
-        
+  
     }
 
+            
     
     
 }
 
 .project-and-case {
+
     .container {
+        padding-top: 120px;
 
         .section-title {
             text-align: center;
