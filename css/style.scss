@@ -933,12 +933,16 @@ header {
 
     .container {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        
+        
+        
         
         
         
 
         .titles {
+
             
 
 
@@ -951,107 +955,137 @@ header {
 
             h2 {
                 font-family: 'DM Sans', sans-serif;
-                font-weight: 800;
+                font-weight: 800; 
+                font-size: 2.2rem;
                 padding-bottom: 60px; 
-                position: absolute;
+                white-space: nowrap;
+                
             }
 
-            .texts-1 {
+            .texts {
+                display: grid;
+                grid-template-columns: 1fr;
+                
                 
 
                 h3 {
                     font-family: 'DM Sans', sans-serif;
-                    font-weight: 600;
+                    font-weight: 600; 
                     font-size: 1.2rem;
                     padding-left: 80px;
-                    padding-top: 150px;
-                    position: absolute;
+                    padding-top: 20px;
                     
+    
                 }
-
+    
                 h4 {
+    
                     font-family: 'DM Sans', sans-serif;
-                    font-weight: 200;
+                    font-weight: 200; 
                     font-size: 0.9rem;
                     padding-left: 80px;
-                    padding-top: 180px;
-                    position: absolute;
+                    white-space: nowrap;
                     
-                    
-                    
+    
                 }
 
                 .thumbsup {
                     position: absolute;
-                    text-align: left;
-                    padding-top: 145px;
+                    margin-top: 25px;
+                    padding: 8px 10px;
+                    border: solid 1px #cccccc;
+                    border-radius: 50%;
+                    margin-left: 10px;
                     
 
-                    
                     
                 }
 
-                .thumbsup2 {
-                    margin: 15px;
-                    padding-top: 160px;
-                    position: relative;
+                .spectrum {
+                    position: absolute;
+                    margin-top: 95px;
+                    padding: 8px 10px;
+                    border: solid 1px #cccccc;
+                    border-radius: 50%;
+                    margin-left: 10px;
                 }
 
+                .joker {
+                    position: absolute;
+                    margin-top: 175px;
+                    padding: 8px 10px;
+                    border: solid 1px #cccccc;
+                    border-radius: 50%;
+                    margin-left: 10px;
+                }
+
+                .braingear {
+                    position: absolute;
+                    margin-top: 250px;
+                    padding: 8px 10px;
+                    border: solid 1px #cccccc;
+                    border-radius: 50%;
+                    margin-left: 10px;
+                }
                 
+
+
 
             }
 
-            .texts-2 {
+            
 
-                h3 {
-                    font-family: 'DM Sans', sans-serif;
-                    font-weight: 600;
-                    font-size: 1.2rem;
-                    padding-left: 80px;
-
-                }
-
-                h4 {
-
-                    font-family: 'DM Sans', sans-serif;
-                    font-weight: 600;
-                    font-size: 1.2rem;
-                    padding-left: 80px;
-
-                }
-            }
-
+            
                 
 
-            
-
-          
-        
-
-        
-            
-            
-
-           
-        
-
-
-
-         
             
             
         }  
 
+        .content {
+            position: relative;
+
+            .background-box {
+                position: relative;
+                z-index: -1;
+                background-color: #F0EFE9;
+                height: 420px;
+                width: 1100px;
+                right:-300px;
+                top: 250px;
+
+                
+
+                
+            }
+            
+
+            
+
+            .twoladies {
+                position: absolute;
+                z-index: 1;
+                left:400px;
+                top: 80px;
+                
+            }
+
+        }
+
     
         
+
+       
 
           
         
     }     
     
-    
+
     
 }
+
+
 .project-and-case {
 
     .container {

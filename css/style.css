@@ -664,7 +664,7 @@ header .container .menu .main-menu .btn-login {
 
 .business-agency .container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 .business-agency .container .titles p {
   color: #f94d1c;
@@ -674,46 +674,77 @@ header .container .menu .main-menu .btn-login {
 .business-agency .container .titles h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 800;
+  font-size: 2.2rem;
   padding-bottom: 60px;
-  position: absolute;
+  white-space: nowrap;
 }
-.business-agency .container .titles .texts-1 h3 {
+.business-agency .container .titles .texts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.business-agency .container .titles .texts h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
   padding-left: 80px;
-  padding-top: 150px;
-  position: absolute;
+  padding-top: 20px;
 }
-.business-agency .container .titles .texts-1 h4 {
+.business-agency .container .titles .texts h4 {
   font-family: "DM Sans", sans-serif;
   font-weight: 200;
   font-size: 0.9rem;
   padding-left: 80px;
-  padding-top: 180px;
-  position: absolute;
+  white-space: nowrap;
 }
-.business-agency .container .titles .texts-1 .thumbsup {
+.business-agency .container .titles .texts .thumbsup {
   position: absolute;
-  text-align: left;
-  padding-top: 145px;
+  margin-top: 25px;
+  padding: 8px 10px;
+  border: solid 1px #cccccc;
+  border-radius: 50%;
+  margin-left: 10px;
 }
-.business-agency .container .titles .texts-1 .thumbsup2 {
-  margin: 15px;
-  padding-top: 160px;
+.business-agency .container .titles .texts .spectrum {
+  position: absolute;
+  margin-top: 95px;
+  padding: 8px 10px;
+  border: solid 1px #cccccc;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.business-agency .container .titles .texts .joker {
+  position: absolute;
+  margin-top: 175px;
+  padding: 8px 10px;
+  border: solid 1px #cccccc;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.business-agency .container .titles .texts .braingear {
+  position: absolute;
+  margin-top: 250px;
+  padding: 8px 10px;
+  border: solid 1px #cccccc;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.business-agency .container .content {
   position: relative;
 }
-.business-agency .container .titles .texts-2 h3 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  padding-left: 80px;
+.business-agency .container .content .background-box {
+  position: relative;
+  z-index: -1;
+  background-color: #F0EFE9;
+  height: 420px;
+  width: 1100px;
+  right: -300px;
+  top: 250px;
 }
-.business-agency .container .titles .texts-2 h4 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  padding-left: 80px;
+.business-agency .container .content .twoladies {
+  position: absolute;
+  z-index: 1;
+  left: 400px;
+  top: 80px;
 }
 
 .project-and-case .container {
