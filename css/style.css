@@ -809,6 +809,10 @@ header .container .menu .main-menu .btn-login {
 }
 .team-members .container {
   align-items: center;
+  text-align: center;
+}
+.team-members .container .title {
+  text-align: left;
 }
 .team-members .container .title p {
   color: #f94d1c;
@@ -833,55 +837,129 @@ header .container .menu .main-menu .btn-login {
   font-size: 1.2rem;
   font-weight: 800px;
   padding-top: 30px;
+  text-align: left;
 }
 .team-members .container .members .member-1 p {
   font-family: "DM Sans", sans-serif;
   font-size: 0.9rem;
   padding-bottom: 25px;
+  text-align: left;
 }
 .team-members .container .members .member-2 h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: 800px;
   padding-top: 28px;
+  text-align: left;
 }
 .team-members .container .members .member-2 p {
   font-family: "DM Sans", sans-serif;
   font-size: 0.9rem;
   padding-bottom: 25px;
+  text-align: left;
 }
 .team-members .container .members .member-3 h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: 800px;
   padding-top: 30px;
+  text-align: left;
 }
 .team-members .container .members .member-3 p {
   font-family: "DM Sans", sans-serif;
   font-size: 0.9rem;
   padding-bottom: 25px;
+  text-align: left;
 }
 .team-members .container .members .member-4 h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: 800px;
   padding-top: 30px;
+  text-align: left;
 }
 .team-members .container .members .member-4 p {
   font-family: "DM Sans", sans-serif;
   font-size: 0.9rem;
   padding-bottom: 25px;
+  text-align: left;
 }
-.team-members .container .round-hover {
-  content: "";
+.team-members .container .roundicon {
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.team-members .container .roundicon .roundball {
+  height: 12px;
+  width: 12px;
+  background-color: #C2AA70;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.team-members .container .roundicon .roundball.active {
+  background-color: #191919;
+}
+.team-members .container .roundicon .roundball:hover {
+  background-color: #191919;
+  transform: scale(1.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.clients {
+  background-color: #F9D783;
+  padding-bottom: 50px;
+}
+.clients .container {
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+}
+.clients .container .title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.clients .container .title p {
+  color: #F94D1C;
+}
+.clients .container .reviews .cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  padding: 50px;
+}
+.clients .container .reviews .cards .review p {
+  margin-bottom: 35px;
+}
+.clients .container .reviews .cards .review .stars {
+  color: #F94D1C;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.clients .container .reviews .cards .review .person {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  background-color: #000000;
-  width: 20px;
-  height: 20px;
-  border: none;
-  border-radius: 50px;
-  transition: background-color 0.3s ease;
-  left: 50%;
+}
+.clients .container .reviews .cards .review .person div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.clients .container .reviews .cards .review .person div h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.clients .container .reviews .cards .review .person div p {
+  color: #F94D1C;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.clients .container .button {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .newsletter {

@@ -1169,8 +1169,10 @@ header {
 
     .container {
         align-items: center;
+        text-align: center;
 
         .title {
+            text-align: left;
 
             p {
                 color: #f94d1c;
@@ -1203,12 +1205,14 @@ header {
                     font-size: 1.2rem;
                     font-weight: 800px;
                     padding-top: 30px;
+                    text-align: left;
                 }
 
                 p {
                     font-family: 'DM Sans', sans-serif;
                     font-size: 0.9rem;
                     padding-bottom: 25px;
+                    text-align: left;
                 }
             }
 
@@ -1218,12 +1222,14 @@ header {
                     font-size: 1.2rem;
                     font-weight: 800px;
                     padding-top: 28px;
+                    text-align: left;
                 }
 
                 p {
                     font-family: 'DM Sans', sans-serif;
                     font-size: 0.9rem;
                     padding-bottom: 25px;
+                    text-align: left;
                 }
 
             }
@@ -1234,12 +1240,14 @@ header {
                     font-size: 1.2rem;
                     font-weight: 800px;
                     padding-top: 30px;
+                    text-align: left;
                 }
 
                 p {
                     font-family: 'DM Sans', sans-serif;
                     font-size: 0.9rem;
                     padding-bottom: 25px;
+                    text-align: left;
                 }
             }
 
@@ -1249,36 +1257,137 @@ header {
                     font-size: 1.2rem;
                     font-weight: 800px;
                     padding-top: 30px;
+                    text-align: left;
                 }
 
                 p {
                     font-family: 'DM Sans', sans-serif;
                     font-size: 0.9rem;
                     padding-bottom: 25px;
+                    text-align: left;
                 }
             }
 
         }
 
-        .round-hover {
-            content: "";
-            align-items: center;
-            background-color: #000000;
-            width: 20px;
-            height: 20px;
-            border: none;
-            border-radius: 50px;
-            transition: background-color 0.3s ease;
-            left: 50%;
-
-
+        .roundicon {
+            margin-top: 2rem;
+            text-align: center;
+            padding-bottom: 3rem;
             
+            .roundball {
+                height: 12px;
+                width: 12px;
+                background-color: #C2AA70;
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: .5rem;
 
-        }
+                &.active {
+                    background-color: #191919;
+                }
 
+                &:hover {
+                    background-color: #191919;
+                    transform: scale(1.5);
+                    transition: all .5s ease-in-out;
+                }
+            }   
+        }         
+              
+
+   
         
     }
 }
+
+.clients {
+    background-color: #F9D783;
+    padding-bottom: 50px;
+
+    .container {
+        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
+        border-radius: 2px;
+
+        .title {
+            margin-top:100px;
+            margin-bottom: 50px;
+            text-align: center;
+
+            p {
+                color: #F94D1C;
+            }
+
+            
+        }
+
+        .reviews {
+
+            .cards {
+                display: flex;
+                justify-content: space-around;
+                gap: 4rem;
+                padding: 50px;
+
+               
+
+                .review {
+
+                    
+
+                    p {
+                        margin-bottom: 35px;
+ 
+                    }
+
+                    .stars {
+                        color: #F94D1C;
+                        font-size: 16px;
+                        margin-bottom: 15px;
+                    }
+
+                    .person {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        
+
+                        div {
+                           display: flex;
+                           flex-direction: column;
+                           margin-left: 15px;
+
+                           
+
+                           h3 {
+                                font-size: 22px;
+                                font-weight: 700;
+                            }
+
+                           p {
+                               color: #F94D1C;
+                               margin-bottom: 0;
+                               font-size: 16px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .button {
+            margin-top: 80px;
+            margin-bottom:100px;
+            text-align: center;
+        }
+           
+    }
+}
+
+
 
 
 .newsletter {
