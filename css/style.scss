@@ -35,7 +35,7 @@ html, body {
     color:#FFFFFF;
     text-decoration: none;
     padding: 12px 30px;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 25px;
 
     i {
@@ -146,7 +146,11 @@ html, body {
     border-radius: 25px;
     text-align: center;
 
-    
+    &:hover {
+        background-color: #191919;
+        border: 1px solid #191919;
+        color:#F0EFE9;
+    }
 }
 
 
@@ -1158,6 +1162,122 @@ header {
     }
 
 
+}
+
+.team-members {
+    background-color: #F9D783;
+
+    .container {
+        align-items: center;
+
+        .title {
+
+            p {
+                color: #f94d1c;
+            }
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 800px;
+                font-size: 40px;
+                padding-bottom: 100px;
+                
+            }
+
+            
+       
+        }
+
+        .members {
+            display: flex;
+            align-items: center;
+
+            gap: 25px;
+
+            .member-1 {
+                position: relative;
+                overflow: hidden;
+
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 800px;
+                    padding-top: 30px;
+                }
+
+                p {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 0.9rem;
+                    padding-bottom: 25px;
+                }
+            }
+
+            .member-2 {
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 800px;
+                    padding-top: 28px;
+                }
+
+                p {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 0.9rem;
+                    padding-bottom: 25px;
+                }
+
+            }
+
+            .member-3 {
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 800px;
+                    padding-top: 30px;
+                }
+
+                p {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 0.9rem;
+                    padding-bottom: 25px;
+                }
+            }
+
+            .member-4 {
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 800px;
+                    padding-top: 30px;
+                }
+
+                p {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 0.9rem;
+                    padding-bottom: 25px;
+                }
+            }
+
+        }
+
+        .round-hover {
+            content: "";
+            align-items: center;
+            background-color: #000000;
+            width: 20px;
+            height: 20px;
+            border: none;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+            left: 50%;
+
+
+            
+
+        }
+
+        
+    }
 }
 
 
