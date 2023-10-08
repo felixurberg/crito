@@ -1168,17 +1168,20 @@ header {
     background-color: #F9D783;
 
     .container {
-        align-items: center;
-        text-align: center;
+        
+        
 
         .title {
             text-align: left;
+            padding-top: 100px;
 
             p {
                 color: #f94d1c;
             }
 
             h2 {
+                display: flex;
+                justify-content: space-between;
                 font-family: 'DM Sans', sans-serif;
                 font-weight: 800px;
                 font-size: 40px;
@@ -1198,7 +1201,7 @@ header {
 
             .member-1 {
                 position: relative;
-                overflow: hidden;
+                
 
                 h3 {
                     font-family: 'DM Sans', sans-serif;
@@ -1309,6 +1312,7 @@ header {
         border: 1px solid #FFFFFF;
         background-color: #FFFFFF;
         border-radius: 2px;
+        
 
         .title {
             margin-top:100px;
@@ -1387,6 +1391,79 @@ header {
     }
 }
 
+.article-news {
+    padding-top: 100px;
+
+    .container {
+        padding:20px;
+
+        .title {
+            
+            p {
+                color: #F94D1C;
+
+            }
+
+            h2 { 
+                display: flex;
+                justify-content: space-between;
+            }
+
+             
+        }
+
+        .news {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+            margin-top: 35px;
+
+            p {
+                margin-top: 20px;
+                font-size: 0.9rem;
+                color:#5e5e5e
+            }
+
+            h3 {
+                margin-top: 20px;
+                font-size: 22px;
+                font-weight: 700;
+                max-width: 310px;
+                text-decoration: none;
+                color: #191919;
+                font-family: 'DM Sans', sans-serif;;
+            }
+
+
+        }
+
+        .roundicon {
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 30px;
+
+            .icon {
+                height: 12px;
+                width: 12px;
+                background-color: #D1D1D1;
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 10px;
+
+                &.active {
+                    background-color: #191919;
+                }
+
+                &:hover {
+                    background-color: #191919;
+                    transform: scale(1.5);
+                    transition: all 0.5s ease-in-out;
+                }
+
+            }
+        }
+    }
+}
 
 
 

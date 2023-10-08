@@ -807,17 +807,16 @@ header .container .menu .main-menu .btn-login {
 .team-members {
   background-color: #F9D783;
 }
-.team-members .container {
-  align-items: center;
-  text-align: center;
-}
 .team-members .container .title {
   text-align: left;
+  padding-top: 100px;
 }
 .team-members .container .title p {
   color: #f94d1c;
 }
 .team-members .container .title h2 {
+  display: flex;
+  justify-content: space-between;
   font-family: "DM Sans", sans-serif;
   font-weight: 800px;
   font-size: 40px;
@@ -830,7 +829,6 @@ header .container .menu .main-menu .btn-login {
 }
 .team-members .container .members .member-1 {
   position: relative;
-  overflow: hidden;
 }
 .team-members .container .members .member-1 h3 {
   font-family: "DM Sans", sans-serif;
@@ -960,6 +958,61 @@ header .container .menu .main-menu .btn-login {
   margin-top: 80px;
   margin-bottom: 100px;
   text-align: center;
+}
+
+.article-news {
+  padding-top: 100px;
+}
+.article-news .container {
+  padding: 20px;
+}
+.article-news .container .title p {
+  color: #F94D1C;
+}
+.article-news .container .title h2 {
+  display: flex;
+  justify-content: space-between;
+}
+.article-news .container .news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-top: 35px;
+}
+.article-news .container .news p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #5e5e5e;
+}
+.article-news .container .news h3 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  max-width: 310px;
+  text-decoration: none;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+}
+.article-news .container .roundicon {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.article-news .container .roundicon .icon {
+  height: 12px;
+  width: 12px;
+  background-color: #D1D1D1;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.article-news .container .roundicon .icon.active {
+  background-color: #191919;
+}
+.article-news .container .roundicon .icon:hover {
+  background-color: #191919;
+  transform: scale(1.5);
+  transition: all 0.5s ease-in-out;
 }
 
 .newsletter {
